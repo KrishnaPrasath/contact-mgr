@@ -1,0 +1,15 @@
+.search-bar {
+    flex: 0 1 70%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: transparent;
+    background: #3333;
+    border-radius: 30px;
+  }
+
+
+  .no-outline {
+  border: none;
+  background: none;
+}
+

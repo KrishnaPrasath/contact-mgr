@@ -1,0 +1,20 @@
+.initial{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #eee; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+#badge{
+    min-height: 100px;
+    min-width: 100px;
+    /* border: 1px solid black; */
+    border-radius:50%;
+    background-color: #eee;
+}
+
+.display{
+    background-color: #eee !important;
+}

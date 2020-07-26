@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+
+html{
+    scroll-behavior: smooth;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    font-family: 'Roboto Mono', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.items{
+    padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ .no-outline {
+  border: none;
+  background: none;
+}
+
+.btn-customize {
+  background: rgb(255, 128, 117);
+  background: linear-gradient(
+    83deg,
+    rgba(255, 128, 117, 1) 0%,
+    rgba(254, 108, 153, 1) 85%
+  );
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-customize:hover {
+  color: white;
+  box-shadow: 0 5px 15px rgba(255, 128, 117, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.line-red {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #da1f1f;
+}
+
+
+.search-bar {
+  /* flex: 0 1 70%; */
+  padding-left: 1em;
+  padding-right: 1em;
+  border: transparent;
+  background: #3333;
+  border-radius: 30px;
+}
+
+#sideBar li :hover{
+  transition: 0.1s;
+  transform: scale(1.2);
+  box-shadow: 0 5px 15px rgba(255, 128, 117, 1);
+}
+
+
+/* .sidebar{
+    flex: 0 1 3%;
+    flex-direction: column;
+    background: rgb(255,128,117);
+    background: linear-gradient(127deg, rgba(255,128,117,1) 0%, rgba(254,108,153,1) 100%);
+    align-items: center;
+} */
+
+
+@media screen and (max-width : 770px){
+  #sideBar{
+    margin: -125px 0 0 0;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width : 1200px){
+  .column-wrapper{
+    flex-direction: column;
   }
 }

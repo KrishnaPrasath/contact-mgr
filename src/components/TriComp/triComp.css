@@ -1,0 +1,39 @@
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.sort-wrapper{
+    width:200px;
+}
+
+#sortBy{
+    width: 100%;
+}
+
+.icon{
+    min-height: 50px;
+    min-width: 50px;
+    margin-top: 30px;
+    fill: linear-gradient(127deg, rgba(255,128,117,1) 0%, rgba(254,108,153,1) 100%) !important;
+}
+
+#content-wrapper{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+/* .top{
+    min-height:25px;
+    min-width: 25px;
+}
+
+.bottom{
+    min-height:25px;
+    min-width: 25px;
+} */
+

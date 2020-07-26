@@ -1,0 +1,59 @@
+{
+    "contacts":[
+    {
+      "id": 1,
+      "fName": "Jeffrey Archer",
+      "email": "jeffrey@gmail.com",
+      "phone": "81000 00009",
+      "company": "Archer",
+      "address": "South boulevard",
+      "role": "Engineer",
+      "initial": "JA",
+      "color": "LightGreen"
+    },
+    {
+      "id": 2,
+      "fName": "Charlie Cooper",
+      "email": "ccooper@gmail.com",
+      "phone": "13124 15432",
+      "company": "Charlie&Mo",
+      "address": "Hollywood",
+      "role": "Actor",
+      "initial": "CC",
+      "color": "HotPink"
+    },
+    {
+      "id": 3,
+      "fName": "Jenny Mitchel",
+      "email": "jenny@gmail.com",
+      "phone": "64567 23412",
+      "company": "Mitchelle",
+      "address": "Beverly hills",
+      "role": "Principal",
+      "initial": "JM",
+      "color": "gray"
+    },
+    {
+      "id": 4,
+      "fName": "Howard Atkinson",
+      "email": "atki@gmail.com",
+      "phone": "50007 11540",
+      "company": "Howie Theaters",
+      "address": "Hollywood",
+      "role": "Actor",
+      "initial": "HA",
+      "color": "OrangeRed"
+    },
+    {
+      "id": 5,
+      "fName": "Charlie Mansion",
+      "email": "sa8n@gmail.com",
+      "phone": "50234 34512",
+      "company": "Hyppie",
+      "address": "Berkley",
+      "role": "Traveler",
+      "initial": "CM",
+      "color": "DeepSkyBlue"
+    }
+  ]
+}

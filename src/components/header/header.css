@@ -1,0 +1,9 @@
+:root {
+    --borderColor : #000000;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px dashed var(--borderColor);
+}

@@ -1,0 +1,15 @@
+.thead{
+    background-color: #eee;
+}
+
+.contactList :hover{
+    background-color: #eee;
+}
+
+.edit :hover { 
+    color: green;
+}
+
+.delete :hover { 
+    color: red;
+}
